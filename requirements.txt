@@ -1,0 +1,16 @@
+# =========================
+# requirements.txt
+# =========================
+numpy
+rasterio
+geopandas
+shapely
+rioxarray
+pystac-client
+planetary-computer
+midiutil
+pretty_midi
+scipy
+moviepy
+Pillow
+pyfluidsynth
