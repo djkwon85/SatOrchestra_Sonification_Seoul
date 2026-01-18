@@ -20,6 +20,9 @@ Thumbs.db
 .vscode/
 .idea/
 
+# --- User-provided boundary (do NOT commit) ---
+Seoul.geojson
+
 # --- Data outputs (do NOT commit) ---
 raw_data/
 processed_data/
