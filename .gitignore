@@ -1,0 +1,50 @@
+# =========================
+# .gitignore
+# =========================
+
+# --- Python ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.dist/
+build/
+dist/
+.venv/
+venv/
+
+# --- OS / IDE ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# --- Data outputs (do NOT commit) ---
+raw_data/
+processed_data/
+
+# --- Large / generated media ---
+*.mp4
+*.mov
+*.avi
+*.wav
+*.mp3
+*.mid
+*.midi
+*.png
+*.jpg
+*.jpeg
+
+# --- Geo / raster artifacts ---
+*.tif
+*.tiff
+*.vrt
+*.aux.xml
+*.ovr
+
+# --- SoundFonts (usually huge / external) ---
+*.sf2
+
+# --- Logs ---
+*.log
