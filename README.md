@@ -46,12 +46,13 @@ sudo apt-get update && sudo apt-get install -y ffmpeg
 ```
 
 ### 3) Seoul boundary file (GeoJSON) (⚠️ required)
-A Seoul administrative boundary file is required to define the region of interest (ROI).
+This project needs a Seoul boundary GeoJSON to define the ROI (region of interest).
 
-- File: `Seoul.geojson`
-- Action: Place `Seoul.geojson` in the **root directory** of this project (same level as the scripts).
+- File name: `Seoul.geojson`
+- Action: Place `Seoul.geojson` in the **project root directory** (same level as the scripts).
 
 Notes:
+- This repository does **NOT** include `Seoul.geojson`. You must obtain it yourself.
 - The GeoJSON should contain a valid polygon/multipolygon boundary for Seoul.
 - If the boundary file is missing, ROI-based cropping/masking will fail.
 
@@ -60,7 +61,7 @@ This project uses FluidSynth + SoundFont to generate high-quality instrument sou
 SoundFont files are not included due to file size limits.
 
 - Recommended: **FluidR3_GM.sf2** (approx. 140MB)
-- Action: Download the `.sf2` file and place it in the **root directory** of this project.
+- Action: Download the `.sf2` file and place it in the **project root directory**.
 
 Note:
 - If no SoundFont is found, the code may fall back to low-quality synthesis.
