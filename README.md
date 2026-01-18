@@ -6,7 +6,7 @@ This project generates an audio-visual symphony of Seoul from satellite imagery.
 Using **Sentinel-2**, we analyze vegetation, urban density, and water bodies, then transform them into musical instruments (Piano, Guitar, Pad) and rhythm using Python.
 
 ## 📺 Preview
-- YouTube: TODO (paste your link here)
+- https://www.youtube.com/watch?v=srTwaCzml0w
 
 ## 🛠️ How it works
 1. **Data Acquisition (`A_S2_download.py`)**
